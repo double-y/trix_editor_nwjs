@@ -1,0 +1,28 @@
+{
+  "name": "trix nwjs",
+  "version": "1.0.0",
+  "description": "trial of trix with nwjs",
+  "main": "index.html",
+  "devDependencies": {
+  },
+  "window": {
+    "title": "trix nwjs",
+    "icon": "",
+    "toolbar": true,
+    "frame": true,
+    "width": 1200,
+    "height": 800,
+    "min_width": 1200,
+    "min_height": 800,
+    "max_width": 1200,
+    "max_height": 800
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha src/tests/**/*.test.js --require src/tests/chai-config.js"
+  },
+  "author": "Yosuke Yasuda",
+  "license": "MIT",
+  "dependencies": {
+    "node-dbf": "^0.1.0"
+  }
+}
